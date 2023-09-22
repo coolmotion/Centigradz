@@ -1,0 +1,79 @@
+
+        /* Custom CSS for navbar */
+        nav{
+            z-index: 999 !important;
+        }
+        .nav-bar {
+            width: 56px; /* Initial width */
+            height: 90vh;
+ 			top: 5%;
+            transition: width 0.3s; /* Transition effect */
+            
+            
+        }
+
+        .nav-bar:hover {
+            width: 150px; /* Width on hover */
+        }
+
+        .nav-item {
+           
+            transition: opacity 0.3s; /* Transition effect */
+        }
+
+        .nav-item:hover {
+            opacity: 0.8; /* Opacity on hover */
+        }
+
+        .nav-icon {
+            margin-right: 8px; /* Add space between icon and text */
+        }
+
+        .nav-text {
+            display: none; /* Initially hide text */
+        }
+
+        .nav-bar:hover .nav-item .nav-text {
+            display: block; /* Show text when .nav-bar is hovered */
+        }
+        body {
+          background-color: white; /* Replace 'red' with the color name you desire */
+        }
+        h2 {
+  background: linear-gradient(to right, red, blue);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline;
+  font-size: 6vh !important;
+  padding-top: 5px;
+  text-align: center !important;
+}
+
+.logo {
+    width: 200px; /* Adjust the width to the desired size */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  .min-h-screen-custom {
+    min-height: 100vh !important;
+  }
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: auto;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+.mnav{
+  z-index: 999;
+
+}
+.mysvg{
+  fill: white;
+}
